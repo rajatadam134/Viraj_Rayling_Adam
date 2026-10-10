@@ -2,13 +2,11 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { towelCatalog } from './data/catalog';
 import { TowelProduct, CollectionType, TowelSize, ViewMode } from './types/towel';
 import { Header } from './components/layout/Header';
-import { HeroBanner } from './components/layout/HeroBanner';
 import { FilterBar } from './components/catalog/FilterBar';
 import { ProductGrid } from './components/catalog/ProductGrid';
 import { SpecSheetView } from './components/catalog/SpecSheetView';
 import { ProductModal } from './components/catalog/ProductModal';
 import { InquiryDrawer } from './components/inquiry/InquiryDrawer';
-import { CraftStory } from './components/story/CraftStory';
 import { Footer } from './components/layout/Footer';
 
 export const App: React.FC = () => {
@@ -62,13 +60,6 @@ export const App: React.FC = () => {
     setInquiryIds([]);
   };
 
-  // Static Counts
-  const totalCatalogCount = towelCatalog.length;
-  const gemCount = useMemo(() => towelCatalog.filter((p) => p.collection === 'GEM').length, []);
-  const geminiCount = useMemo(() => towelCatalog.filter((p) => p.collection === 'Gemini').length, []);
-  const size27x54Count = useMemo(() => towelCatalog.filter((p) => p.size === '27 x 54').length, []);
-  const size30x60Count = useMemo(() => towelCatalog.filter((p) => p.size === '30 x 60').length, []);
-
   // Filtered Products
   const filteredProducts = useMemo(() => {
     return towelCatalog.filter((product) => {
@@ -77,7 +68,7 @@ export const App: React.FC = () => {
         return false;
       }
 
-      // Size filter
+      // Size filter (2754 or 3060)
       if (activeSize !== 'all' && product.size !== activeSize) {
         return false;
       }
@@ -86,13 +77,10 @@ export const App: React.FC = () => {
       if (searchQuery.trim() !== '') {
         const query = searchQuery.toLowerCase().trim();
         const matchesName = product.name.toLowerCase().includes(query);
-        const matchesDesign = product.design.toLowerCase().includes(query);
-        const matchesCode = product.itemCode.toLowerCase().includes(query);
-        const matchesBorder = product.borderStyle.toLowerCase().includes(query);
-        const matchesDesc = product.description.toLowerCase().includes(query);
+        const matchesQuality = product.quality.toLowerCase().includes(query);
         const matchesSize = product.size.toLowerCase().includes(query);
 
-        if (!matchesName && !matchesDesign && !matchesCode && !matchesBorder && !matchesDesc && !matchesSize) {
+        if (!matchesName && !matchesQuality && !matchesSize) {
           return false;
         }
       }
@@ -109,20 +97,15 @@ export const App: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-canvas text-ink">
-      {/* Masthead Header */}
+      {/* Slim Header */}
       <Header
         inquiryCount={inquiryIds.length}
         onOpenInquiry={() => setIsInquiryOpen(true)}
-        searchQuery={searchQuery}
-        onSearchChange={setSearchQuery}
       />
 
-      {/* Main Content */}
+      {/* Main Content Area - Direct to Catalog */}
       <main className="flex-1">
-        {/* Editorial Introduction */}
-        <HeroBanner />
-
-        {/* Filter & View Switcher Bar */}
+        {/* Compact Sticky Filter Bar */}
         <FilterBar
           activeCollection={activeCollection}
           onSelectCollection={setActiveCollection}
@@ -130,48 +113,12 @@ export const App: React.FC = () => {
           onSelectSize={setActiveSize}
           viewMode={viewMode}
           onSelectViewMode={setViewMode}
+          searchQuery={searchQuery}
+          onSearchChange={setSearchQuery}
           totalFilteredCount={filteredProducts.length}
-          totalCatalogCount={totalCatalogCount}
-          gemCount={gemCount}
-          geminiCount={geminiCount}
-          size27x54Count={size27x54Count}
-          size30x60Count={size30x60Count}
         />
 
-        {/* Active Filters Bar if any filter is set */}
-        {(activeCollection !== 'all' || activeSize !== 'all' || searchQuery.trim() !== '') && (
-          <div className="bg-canvas-subtle border-b border-hairline py-2 px-4 sm:px-8 text-xs font-mono flex items-center justify-between">
-            <div className="flex items-center gap-2 flex-wrap">
-              <span className="text-ink-muted">Active Filters:</span>
-              {activeCollection !== 'all' && (
-                <span className="bg-surface border border-hairline px-2 py-0.5 text-ink flex items-center gap-1">
-                  Series: {activeCollection}
-                  <button onClick={() => setActiveCollection('all')} className="text-ink-muted hover:text-ink">✕</button>
-                </span>
-              )}
-              {activeSize !== 'all' && (
-                <span className="bg-surface border border-hairline px-2 py-0.5 text-ink flex items-center gap-1">
-                  Size: {activeSize}
-                  <button onClick={() => setActiveSize('all')} className="text-ink-muted hover:text-ink">✕</button>
-                </span>
-              )}
-              {searchQuery.trim() !== '' && (
-                <span className="bg-surface border border-hairline px-2 py-0.5 text-ink flex items-center gap-1">
-                  Query: "{searchQuery}"
-                  <button onClick={() => setSearchQuery('')} className="text-ink-muted hover:text-ink">✕</button>
-                </span>
-              )}
-            </div>
-            <button
-              onClick={handleResetFilters}
-              className="text-brand-terracotta hover:underline font-mono text-[11px]"
-            >
-              Clear All
-            </button>
-          </div>
-        )}
-
-        {/* Catalog Body: Lookbook or Spec Sheet View */}
+        {/* Catalog Body */}
         {viewMode === 'lookbook' ? (
           <ProductGrid
             products={filteredProducts}
@@ -188,15 +135,12 @@ export const App: React.FC = () => {
             inquiryProductIds={inquiryIdSet}
           />
         )}
-
-        {/* Material & Weaving Craft Section */}
-        <CraftStory />
       </main>
 
-      {/* Editorial Colophon Footer */}
+      {/* Minimal Footer */}
       <Footer />
 
-      {/* Product Weave Inspector Modal */}
+      {/* Product Image Modal (Clean, Non-bloated) */}
       <ProductModal
         product={selectedProduct}
         onClose={() => setSelectedProduct(null)}

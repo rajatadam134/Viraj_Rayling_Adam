@@ -1,25 +1,15 @@
 export type CollectionType = 'GEM' | 'Gemini';
 
-export type TowelSize = '27 x 54' | '30 x 60';
+export type TowelSize = '2754' | '3060';
 
 export interface TowelProduct {
   id: string;
-  itemCode: string;
   collection: CollectionType;
-  collectionName: string;
   name: string;
-  design: string;
+  quality: string;
   size: TowelSize;
-  sizeLabel: string;
-  sizeCategory: string;
-  dimensionsMetric: string;
   image: string;
-  orientation: 'portrait' | 'landscape';
   colorCount: number;
-  paletteColors: string[];
-  borderStyle: string;
-  description: string;
-  isFeatured?: boolean;
 }
 
 export type ViewMode = 'lookbook' | 'spec-sheet';

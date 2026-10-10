@@ -1,8 +1,8 @@
-# Viraj Rayling Adam — Fine Towel Catalog Website
+# Viraj Rayling Adam — Towel Catalog
 
-A bespoke, high-performance digital catalog for **Viraj Rayling Adam**, manufacturers and wholesale distributors of premium 100% cotton terry and jacquard towels.
+A bespoke, high-performance digital catalog for **Viraj Rayling Adam** — *Filament and cotton terry towels*.
 
-Featuring the signature **GEM Series** and **Gemini Series**, standard sizes (27" × 54" & 30" × 60"), 6-color assortment master bundles, and direct WhatsApp wholesale inquiry integration.
+Featuring the signature **GEM Series** and **Gemini Series**, standard trade sizes (**2754** & **3060**), 6-color assortment master bundles, and direct WhatsApp wholesale inquiry integration.
 
 ---
 
