@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --canvas: #FAF8F5;
+    --canvas-subtle: #F3EFE9;
+    --hairline: #DDD6C9;
+    --hairline-dark: #BAAF9E;
+    --ink: #191816;
+    --ink-secondary: #5C564D;
+    --ink-muted: #8E867A;
+    --brand-terracotta: #8C482E;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: var(--ink);
+    background-color: var(--canvas);
+    overflow-x: clip;
+  }
+
+  body {
+    overflow-x: clip;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Anti-AI Typography discipline: Display headers are upright, authentic, dignified */
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, Cambria, serif;
+    font-style: normal;
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Custom editorial scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F3EFE9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CFC7B8;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B5AB9A;
+}
+
+/* Tactile paper/linen grid line utilities */
+.hairline-b {
+  border-bottom: 1px solid #DDD6C9;
+}
+.hairline-t {
+  border-top: 1px solid #DDD6C9;
+}
+.hairline-r {
+  border-right: 1px solid #DDD6C9;
+}
+.hairline-l {
+  border-left: 1px solid #DDD6C9;
+}
+.hairline-all {
+  border: 1px solid #DDD6C9;
+}
+
+/* Clean image lens frame */
+.lens-container {
+  position: relative;
+  overflow: hidden;
+  background-color: #F5F2EB;
+}
+
+.lens-image {
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.lens-container:hover .lens-image {
+  transform: scale(1.03);
+}
+
+/* Subtle print styles for B2B catalog exporting */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .print-page {
+    page-break-after: always;
+  }
+}
