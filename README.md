@@ -179,7 +179,7 @@ The catalog is engineered to be easily extensible when you add more towels in th
      sizeLabel: '30" × 60"',
      sizeCategory: 'Large Bath / Pool Towel',
      dimensionsMetric: '76 × 152 cm',
-     image: '/images/royal_towels/Royal 30 x 60 Velvet.png',
+     image: '/images/royal_towels/Royal 30 x 60 Velvet.webp',
      orientation: 'landscape',
      colorCount: 6,
      paletteColors: standard6Colors,
