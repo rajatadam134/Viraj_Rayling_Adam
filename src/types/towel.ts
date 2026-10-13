@@ -1,4 +1,4 @@
-export type CollectionType = 'GEM' | 'Gemini';
+export type CollectionType = 'GEM' | 'Gemini' | 'Sharmili';
 
 export type TowelSize = '2754' | '3060';
 

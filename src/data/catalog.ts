@@ -207,5 +207,36 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Sparkle.png'),
     colorCount: 6,
+  },
+
+  // ==========================================
+  // SHARMILI TOWELS (3 Varieties)
+  // ==========================================
+  {
+    id: 'sharmili-3060-classic',
+    collection: 'Sharmili',
+    name: 'Sharmili Classic',
+    quality: 'Classic',
+    size: '3060',
+    image: getImg('sharmili_towels/Sharmili_3060.png'),
+    colorCount: 6,
+  },
+  {
+    id: 'sharmili-3060-cabana',
+    collection: 'Sharmili',
+    name: 'Sharmili Cabana',
+    quality: 'Cabana',
+    size: '3060',
+    image: getImg('sharmili_towels/Sharmili_3060_Cabana.png'),
+    colorCount: 6,
+  },
+  {
+    id: 'sharmili-3060-flower',
+    collection: 'Sharmili',
+    name: 'Sharmili Flower',
+    quality: 'Flower',
+    size: '3060',
+    image: getImg('sharmili_towels/Sharmili_3060_Flower.png'),
+    colorCount: 6,
   }
 ];

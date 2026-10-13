@@ -64,6 +64,16 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             >
               Gemini
             </button>
+            <button
+              onClick={() => onSelectCollection('Sharmili')}
+              className={`px-2.5 py-1 text-xs font-mono transition-colors ${
+                activeCollection === 'Sharmili'
+                  ? 'bg-ink text-white font-medium shadow-crisp'
+                  : 'text-ink-secondary hover:text-ink'
+              }`}
+            >
+              Sharmili
+            </button>
           </div>
 
           {/* Size Designation Pills: 2754 & 3060 */}

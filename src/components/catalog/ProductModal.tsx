@@ -154,7 +154,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
           </div>
 
           <div className="p-2 border-t border-hairline/80 bg-surface/70 text-center text-[11px] font-mono text-ink-muted">
-            Pack of 6 Assorted Colors
+            Pack of {product.colorCount} Assorted Colors
           </div>
         </div>
 
@@ -186,7 +186,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
               </div>
               <div className="flex justify-between">
                 <span className="text-ink-muted">Pack:</span>
-                <span className="text-ink">6 Pieces Assorted</span>
+                <span className="text-ink">{product.colorCount} Pieces Assorted</span>
               </div>
             </div>
           </div>

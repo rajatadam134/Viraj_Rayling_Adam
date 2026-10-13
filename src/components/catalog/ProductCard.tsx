@@ -66,7 +66,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
           <div className="flex items-center justify-between text-[11px] font-mono text-ink-muted mb-3">
             <span>Quality: {product.quality}</span>
-            <span>6 Colors Pack</span>
+            <span>{product.colorCount} Colors Pack</span>
           </div>
         </div>
 

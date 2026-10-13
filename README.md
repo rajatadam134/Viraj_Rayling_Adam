@@ -2,7 +2,7 @@
 
 A bespoke, high-performance digital catalog for **Viraj Rayling Adam** — *Filament and cotton terry towels*.
 
-Featuring the signature **GEM Series** and **Gemini Series**, standard trade sizes (**2754** & **3060**), 6-color assortment master bundles, and direct WhatsApp wholesale inquiry integration.
+Featuring the signature **GEM Series**, **Gemini Series**, and **Sharmili Series**, standard trade sizes (**2754** & **3060**), 6-color assortment master bundles, and direct WhatsApp wholesale inquiry integration.
 
 ---
 
@@ -29,13 +29,13 @@ Built strictly to avoid generic AI-generated templates and design tropes:
   - Generates a formatted inquiry message sent directly to **WhatsApp (+91 93268 29031)** with all selected item codes and sizes pre-filled.
   - Also includes a "Copy Summary" button for easy email drafts.
 - **Dynamic Filtering & Live Search**:
-  - Filter by Collection: All, GEM Series (8), Gemini Series (14).
+  - Filter by Collection: All, GEM Series (8), Gemini Series (14), Sharmili Series (3).
   - Filter by Size: All, 27" × 54" (Bath), 30" × 60" (Large Bath / Pool Sheet).
-  - Instant live search by keyword (e.g., *Cabana*, *Diamond*, *Burfy*, *Flower*).
+  - Instant live search by keyword (e.g., *Cabana*, *Diamond*, *Burfy*, *Flower*, *Sharmili*).
 
 ---
 
-## 📦 Current Catalog Inventory (22 Varieties)
+## 📦 Current Catalog Inventory (25 Varieties)
 
 ### 1. GEM Series (8 Varieties)
 * **27" × 54" (Standard Bath Towel · 68 × 137 cm)**:
@@ -66,6 +66,12 @@ Built strictly to avoid generic AI-generated templates and design tropes:
   - `Gemini Lining` (`VRA-GMI-3060-LIN`) — Pinstripe linear dobby
   - `Gemini Sideline` (`VRA-GMI-3060-SID`) — Sideline frame border
   - `Gemini Sparkle` (`VRA-GMI-3060-SPK`) — Sparkle textured micro-weave
+
+### 3. Sharmili Series (3 Varieties)
+* **30" × 60" (Large Bath / Pool Towel · 76 × 152 cm)**:
+  - `Sharmili Classic` (`VRA-SHM-3060-CLS`) — Geometric floral relief header & multi-tone borders
+  - `Sharmili Cabana` (`VRA-SHM-3060-CAB`) — Classic vibrant yarn-dyed cabana stripe bundle
+  - `Sharmili Flower` (`VRA-SHM-3060-FLW`) — Botanical jacquard floral border weave
 
 ---
 

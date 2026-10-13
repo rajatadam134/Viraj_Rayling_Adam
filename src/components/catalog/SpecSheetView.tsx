@@ -88,7 +88,7 @@ export const SpecSheetView: React.FC<SpecSheetViewProps> = ({
 
                   {/* Pack */}
                   <td className="py-2 px-3 text-[11px] font-mono text-ink-muted whitespace-nowrap">
-                    6 Colors
+                    {product.colorCount} Colors
                   </td>
 
                   {/* Actions */}
