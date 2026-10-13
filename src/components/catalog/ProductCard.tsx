@@ -1,7 +1,7 @@
 import React from 'react';
 import { TowelProduct } from '../../types/towel';
 import { getWhatsAppLink } from '../../config/site';
-import { MessageCircle, Bookmark, Check } from 'lucide-react';
+import { MessageCircle, Bookmark, Check, ZoomIn } from 'lucide-react';
 
 interface ProductCardProps {
   product: TowelProduct;
@@ -16,35 +16,41 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   onToggleInquiry,
   isInInquiryList,
 }) => {
-  const whatsappMessage = `Hello Viraj Rayling Adam, I am inquiring about ${product.name} (Size: ${product.size}). Please share price and details.`;
+  const whatsappMessage = `Hello Viraj Rayling Adam, I am inquiring about ${product.name} (Size: ${product.size}). Quality: ${product.quality}. Please share price and availability.`;
 
   return (
-    <article className="group bg-surface border border-hairline hover:border-hairline-dark transition-all duration-200 flex flex-col justify-between overflow-hidden shadow-crisp">
-      {/* Visual Image Showcase - Click to Open Image Modal */}
+    <article className="group bg-surface border border-hairline hover:border-hairline-dark transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-crisp hover:shadow-elevated">
+      {/* Visual Image Plate - Respects Natural Aspect Ratio */}
       <div 
         onClick={() => onOpenModal(product)}
-        className="relative bg-[#F4EFE9] overflow-hidden cursor-pointer flex items-center justify-center p-2.5 sm:p-4 min-h-[220px] sm:min-h-[280px]"
+        className="relative bg-[#F4EFE9] overflow-hidden cursor-pointer flex items-center justify-center p-3 sm:p-4.5"
       >
         {/* Top Badges */}
         <div className="absolute top-2.5 left-2.5 z-10">
-          <span className="px-2 py-0.5 text-[10px] font-mono tracking-wider bg-surface/95 border border-hairline text-ink uppercase">
+          <span className="px-2 py-0.5 text-[10px] font-mono tracking-wider bg-surface/95 border border-hairline text-ink uppercase backdrop-blur-xs shadow-xs">
             {product.collection}
           </span>
         </div>
 
         <div className="absolute top-2.5 right-2.5 z-10">
-          <span className="px-2 py-0.5 text-[11px] font-mono font-bold tracking-tight bg-ink text-white">
+          <span className="px-2 py-0.5 text-[11px] font-mono font-bold tracking-tight bg-ink text-white shadow-xs">
             {product.size}
           </span>
         </div>
 
-        {/* Product Photograph */}
-        <div className="w-full h-full flex items-center justify-center">
+        {/* Hover Inspect Cue */}
+        <div className="absolute bottom-2.5 right-2.5 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-surface/90 backdrop-blur-xs border border-hairline px-2 py-0.5 flex items-center gap-1 text-[10px] font-mono text-ink shadow-xs pointer-events-none">
+          <ZoomIn className="w-3 h-3 text-brand-terracotta" />
+          <span>Inspect</span>
+        </div>
+
+        {/* Unconstrained Product Photograph (Expands naturally without letterbox shrinkage) */}
+        <div className="w-full flex items-center justify-center">
           <img
             src={product.image}
             alt={`${product.name} - ${product.size}`}
             loading="lazy"
-            className="max-h-[220px] sm:max-h-[280px] w-auto max-w-full object-contain filter drop-shadow-sm transition-transform duration-300 group-hover:scale-[1.02]"
+            className="w-full h-auto max-h-[580px] object-contain filter drop-shadow-sm transition-transform duration-500 ease-out group-hover:scale-[1.015]"
           />
         </div>
       </div>
@@ -56,6 +62,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             <h3 
               onClick={() => onOpenModal(product)}
               className="text-base sm:text-lg font-serif text-ink font-normal hover:text-brand-terracotta cursor-pointer transition-colors leading-snug truncate"
+              title={product.name}
             >
               {product.name}
             </h3>

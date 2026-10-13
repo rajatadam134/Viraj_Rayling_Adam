@@ -38,16 +38,17 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
 
   return (
     <div className="max-w-7xl mx-auto px-3 sm:px-6 py-4 sm:py-8">
-      {/* Responsive Product Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+      {/* Responsive Editorial Masonry Columns */}
+      <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 sm:gap-6">
         {products.map((product) => (
-          <ProductCard
-            key={product.id}
-            product={product}
-            onOpenModal={onOpenModal}
-            onToggleInquiry={onToggleInquiry}
-            isInInquiryList={inquiryProductIds.has(product.id)}
-          />
+          <div key={product.id} className="break-inside-avoid mb-4 sm:mb-6">
+            <ProductCard
+              product={product}
+              onOpenModal={onOpenModal}
+              onToggleInquiry={onToggleInquiry}
+              isInInquiryList={inquiryProductIds.has(product.id)}
+            />
+          </div>
         ))}
       </div>
     </div>

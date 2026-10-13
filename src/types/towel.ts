@@ -10,6 +10,7 @@ export interface TowelProduct {
   size: TowelSize;
   image: string;
   colorCount: number;
+  aspectRatio?: 'portrait' | 'landscape' | 'square';
 }
 
 export type ViewMode = 'lookbook' | 'spec-sheet';

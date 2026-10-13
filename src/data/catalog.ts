@@ -14,6 +14,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '2754',
     image: getImg('gem_towels/GEM 27 x 54 Diamond.webp'),
     colorCount: 6,
+    aspectRatio: 'portrait',
   },
   {
     id: 'gem-2754-flower-1',
@@ -23,6 +24,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '2754',
     image: getImg('gem_towels/GEM 27 x 54 Flower_1.webp'),
     colorCount: 6,
+    aspectRatio: 'portrait',
   },
   {
     id: 'gem-2754-flower-2',
@@ -32,6 +34,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '2754',
     image: getImg('gem_towels/GEM 27 x 54 Flower_2.webp'),
     colorCount: 6,
+    aspectRatio: 'square',
   },
   {
     id: 'gem-2754-flower-3',
@@ -41,6 +44,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '2754',
     image: getImg('gem_towels/GEM 27 x 54 Flower_3.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
   {
     id: 'gem-2754-polo',
@@ -50,6 +54,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '2754',
     image: getImg('gem_towels/GEM 27 x 54 Polo.webp'),
     colorCount: 6,
+    aspectRatio: 'portrait',
   },
   {
     id: 'gem-3060-burfy',
@@ -59,6 +64,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gem_towels/GEM 30 x 60 Burfy.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
   {
     id: 'gem-3060-flower-1',
@@ -68,6 +74,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gem_towels/GEM 30 x 60 Flower_1.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
   {
     id: 'gem-3060-flower-2',
@@ -77,6 +84,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gem_towels/GEM 30 x 60 Flower_2.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
 
   // ==========================================
@@ -90,6 +98,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '2754',
     image: getImg('gemini_towels/Gemini 27 x 54 3D.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
   {
     id: 'gemini-2754-cabana',
@@ -99,6 +108,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '2754',
     image: getImg('gemini_towels/Gemini 27 x 54 Cabana.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
   {
     id: 'gemini-2754-diamond',
@@ -108,6 +118,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '2754',
     image: getImg('gemini_towels/Gemini 27 x 54 Diamond.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
   {
     id: 'gemini-2754-flower-1',
@@ -117,6 +128,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '2754',
     image: getImg('gemini_towels/Gemini 27 x 54 Flower_1.webp'),
     colorCount: 6,
+    aspectRatio: 'portrait',
   },
   {
     id: 'gemini-2754-flower-2',
@@ -126,6 +138,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '2754',
     image: getImg('gemini_towels/Gemini 27 x 54 Flower_2.webp'),
     colorCount: 6,
+    aspectRatio: 'portrait',
   },
   {
     id: 'gemini-3060-3d-1',
@@ -135,6 +148,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 3D_1.webp'),
     colorCount: 6,
+    aspectRatio: 'portrait',
   },
   {
     id: 'gemini-3060-3d-2',
@@ -144,6 +158,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 3D_2.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
   {
     id: 'gemini-3060-diamond',
@@ -153,6 +168,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Diamond.webp'),
     colorCount: 6,
+    aspectRatio: 'portrait',
   },
   {
     id: 'gemini-3060-flower-1',
@@ -162,6 +178,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Flower_1.webp'),
     colorCount: 6,
+    aspectRatio: 'portrait',
   },
   {
     id: 'gemini-3060-flower-2',
@@ -171,6 +188,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Flower_2.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
   {
     id: 'gemini-3060-flower-3',
@@ -180,6 +198,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Flower_3.webp'),
     colorCount: 6,
+    aspectRatio: 'portrait',
   },
   {
     id: 'gemini-3060-lining',
@@ -189,6 +208,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Lining.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
   {
     id: 'gemini-3060-sideline',
@@ -198,6 +218,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Sideline.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
   {
     id: 'gemini-3060-sparkle',
@@ -207,6 +228,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Sparkle.webp'),
     colorCount: 6,
+    aspectRatio: 'landscape',
   },
 
   // ==========================================
@@ -220,6 +242,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('sharmili_towels/Sharmili_3060.webp'),
     colorCount: 6,
+    aspectRatio: 'square',
   },
   {
     id: 'sharmili-3060-cabana',
@@ -229,6 +252,7 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('sharmili_towels/Sharmili_3060_Cabana.webp'),
     colorCount: 6,
+    aspectRatio: 'portrait',
   },
   {
     id: 'sharmili-3060-flower',
@@ -238,5 +262,6 @@ export const towelCatalog: TowelProduct[] = [
     size: '3060',
     image: getImg('sharmili_towels/Sharmili_3060_Flower.webp'),
     colorCount: 6,
+    aspectRatio: 'square',
   }
 ];
