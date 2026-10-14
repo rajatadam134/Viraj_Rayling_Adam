@@ -9,7 +9,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gem-2754-diamond',
     collection: 'GEM',
-    name: 'GEM Diamond',
+    name: 'GEM 2754 Diamond',
     quality: 'Diamond',
     size: '2754',
     image: getImg('gem_towels/GEM 27 x 54 Diamond.webp'),
@@ -19,7 +19,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gem-2754-flower-1',
     collection: 'GEM',
-    name: 'GEM Flower 1',
+    name: 'GEM 2754 Flower 1',
     quality: 'Flower 1',
     size: '2754',
     image: getImg('gem_towels/GEM 27 x 54 Flower_1.webp'),
@@ -29,7 +29,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gem-2754-flower-2',
     collection: 'GEM',
-    name: 'GEM Flower 2',
+    name: 'GEM 2754 Flower 2',
     quality: 'Flower 2',
     size: '2754',
     image: getImg('gem_towels/GEM 27 x 54 Flower_2.webp'),
@@ -39,7 +39,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gem-2754-flower-3',
     collection: 'GEM',
-    name: 'GEM Flower 3',
+    name: 'GEM 2754 Flower 3',
     quality: 'Flower 3',
     size: '2754',
     image: getImg('gem_towels/GEM 27 x 54 Flower_3.webp'),
@@ -49,7 +49,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gem-2754-polo',
     collection: 'GEM',
-    name: 'GEM Polo',
+    name: 'GEM 2754 Polo',
     quality: 'Polo',
     size: '2754',
     image: getImg('gem_towels/GEM 27 x 54 Polo.webp'),
@@ -59,7 +59,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gem-3060-burfy',
     collection: 'GEM',
-    name: 'GEM Burfy',
+    name: 'GEM 3060 Burfy',
     quality: 'Burfy',
     size: '3060',
     image: getImg('gem_towels/GEM 30 x 60 Burfy.webp'),
@@ -69,7 +69,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gem-3060-flower-1',
     collection: 'GEM',
-    name: 'GEM Flower 1',
+    name: 'GEM 3060 Flower 1',
     quality: 'Flower 1',
     size: '3060',
     image: getImg('gem_towels/GEM 30 x 60 Flower_1.webp'),
@@ -79,7 +79,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gem-3060-flower-2',
     collection: 'GEM',
-    name: 'GEM Flower 2',
+    name: 'GEM 3060 Flower 2',
     quality: 'Flower 2',
     size: '3060',
     image: getImg('gem_towels/GEM 30 x 60 Flower_2.webp'),
@@ -93,7 +93,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-2754-3d',
     collection: 'Gemini',
-    name: 'Gemini 3D',
+    name: 'Gemini 2754 3D',
     quality: '3D',
     size: '2754',
     image: getImg('gemini_towels/Gemini 27 x 54 3D.webp'),
@@ -103,7 +103,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-2754-cabana',
     collection: 'Gemini',
-    name: 'Gemini Cabana',
+    name: 'Gemini 2754 Cabana',
     quality: 'Cabana',
     size: '2754',
     image: getImg('gemini_towels/Gemini 27 x 54 Cabana.webp'),
@@ -113,7 +113,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-2754-diamond',
     collection: 'Gemini',
-    name: 'Gemini Diamond',
+    name: 'Gemini 2754 Diamond',
     quality: 'Diamond',
     size: '2754',
     image: getImg('gemini_towels/Gemini 27 x 54 Diamond.webp'),
@@ -123,7 +123,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-2754-flower-1',
     collection: 'Gemini',
-    name: 'Gemini Flower 1',
+    name: 'Gemini 2754 Flower 1',
     quality: 'Flower 1',
     size: '2754',
     image: getImg('gemini_towels/Gemini 27 x 54 Flower_1.webp'),
@@ -133,7 +133,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-2754-flower-2',
     collection: 'Gemini',
-    name: 'Gemini Flower 2',
+    name: 'Gemini 2754 Flower 2',
     quality: 'Flower 2',
     size: '2754',
     image: getImg('gemini_towels/Gemini 27 x 54 Flower_2.webp'),
@@ -143,7 +143,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-3060-3d-1',
     collection: 'Gemini',
-    name: 'Gemini 3D 1',
+    name: 'Gemini 3060 3D 1',
     quality: '3D 1',
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 3D_1.webp'),
@@ -153,7 +153,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-3060-3d-2',
     collection: 'Gemini',
-    name: 'Gemini 3D 2',
+    name: 'Gemini 3060 3D 2',
     quality: '3D 2',
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 3D_2.webp'),
@@ -163,7 +163,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-3060-diamond',
     collection: 'Gemini',
-    name: 'Gemini Diamond',
+    name: 'Gemini 3060 Diamond',
     quality: 'Diamond',
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Diamond.webp'),
@@ -173,7 +173,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-3060-flower-1',
     collection: 'Gemini',
-    name: 'Gemini Flower 1',
+    name: 'Gemini 3060 Flower 1',
     quality: 'Flower 1',
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Flower_1.webp'),
@@ -183,7 +183,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-3060-flower-2',
     collection: 'Gemini',
-    name: 'Gemini Flower 2',
+    name: 'Gemini 3060 Flower 2',
     quality: 'Flower 2',
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Flower_2.webp'),
@@ -193,7 +193,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-3060-flower-3',
     collection: 'Gemini',
-    name: 'Gemini Flower 3',
+    name: 'Gemini 3060 Flower 3',
     quality: 'Flower 3',
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Flower_3.webp'),
@@ -203,7 +203,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-3060-lining',
     collection: 'Gemini',
-    name: 'Gemini Lining',
+    name: 'Gemini 3060 Lining',
     quality: 'Lining',
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Lining.webp'),
@@ -213,7 +213,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-3060-sideline',
     collection: 'Gemini',
-    name: 'Gemini Sideline',
+    name: 'Gemini 3060 Sideline',
     quality: 'Sideline',
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Sideline.webp'),
@@ -223,7 +223,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'gemini-3060-sparkle',
     collection: 'Gemini',
-    name: 'Gemini Sparkle',
+    name: 'Gemini 3060 Sparkle',
     quality: 'Sparkle',
     size: '3060',
     image: getImg('gemini_towels/Gemini 30 x 60 Sparkle.webp'),
@@ -237,7 +237,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'sharmili-3060-classic',
     collection: 'Sharmili',
-    name: 'Sharmili Classic',
+    name: 'Sharmili 3060 Classic',
     quality: 'Classic',
     size: '3060',
     image: getImg('sharmili_towels/Sharmili_3060.webp'),
@@ -247,7 +247,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'sharmili-3060-cabana',
     collection: 'Sharmili',
-    name: 'Sharmili Cabana',
+    name: 'Sharmili 3060 Cabana',
     quality: 'Cabana',
     size: '3060',
     image: getImg('sharmili_towels/Sharmili_3060_Cabana.webp'),
@@ -257,7 +257,7 @@ export const towelCatalog: TowelProduct[] = [
   {
     id: 'sharmili-3060-flower',
     collection: 'Sharmili',
-    name: 'Sharmili Flower',
+    name: 'Sharmili 3060 Flower',
     quality: 'Flower',
     size: '3060',
     image: getImg('sharmili_towels/Sharmili_3060_Flower.webp'),

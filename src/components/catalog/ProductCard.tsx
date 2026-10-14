@@ -16,7 +16,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   onToggleInquiry,
   isInInquiryList,
 }) => {
-  const whatsappMessage = `Hello Viraj Rayling Adam, I am inquiring about ${product.name} (Size: ${product.size}). Quality: ${product.quality}. Please share price and availability.`;
+  const whatsappMessage = `Hello Viraj Rayling Adam, I am inquiring about ${product.name}. Quality: ${product.quality}. Please share price and availability.`;
 
   return (
     <article className="group bg-surface border border-hairline hover:border-hairline-dark transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-crisp hover:shadow-elevated">
@@ -58,7 +58,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       {/* Product Details & Actions */}
       <div className="p-3 sm:p-4 bg-surface border-t border-hairline flex flex-col justify-between">
         <div>
-          <div className="flex items-center justify-between gap-1 mb-1">
+          <div className="mb-1">
             <h3 
               onClick={() => onOpenModal(product)}
               className="text-base sm:text-lg font-serif text-ink font-normal hover:text-brand-terracotta cursor-pointer transition-colors leading-snug truncate"
@@ -66,9 +66,6 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             >
               {product.name}
             </h3>
-            <span className="text-[11px] font-mono font-medium text-brand-terracotta shrink-0">
-              {product.size}
-            </span>
           </div>
 
           <div className="flex items-center justify-between text-[11px] font-mono text-ink-muted mb-3">

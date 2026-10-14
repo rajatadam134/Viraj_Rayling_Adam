@@ -38,40 +38,40 @@ Built strictly to avoid generic AI-generated templates and design tropes:
 ## 📦 Current Catalog Inventory (25 Varieties)
 
 ### 1. GEM Series (8 Varieties)
-* **27" × 54" (Standard Bath Towel · 68 × 137 cm)**:
-  - `GEM Diamond` (`VRA-GEM-2754-DIA`) — Geometric diamond jacquard dobby border
-  - `GEM Polo` (`VRA-GEM-2754-POL`) — Polo sport athletic jacquard stripe
-  - `GEM Flower I` (`VRA-GEM-2754-FL1`) — Floral petal jacquard border
-  - `GEM Flower II` (`VRA-GEM-2754-FL2`) — Botanical woven jacquard band
-  - `GEM Flower III` (`VRA-GEM-2754-FL3`) — Ornate floral relief header
-* **30" × 60" (Large Bath / Pool Towel · 76 × 152 cm)**:
-  - `GEM Burfy` (`VRA-GEM-3060-BUR`) — Traditional rhombus burfy dobby border
-  - `GEM Flower I (Large)` (`VRA-GEM-3060-FL1`) — Floral dobby jacquard border
-  - `GEM Flower II (Large)` (`VRA-GEM-3060-FL2`) — Double floral dobby weave
+* **2754 (Standard Bath Towel · 68 × 137 cm)**:
+  - `GEM 2754 Diamond` (`VRA-GEM-2754-DIA`) — Geometric diamond jacquard dobby border
+  - `GEM 2754 Polo` (`VRA-GEM-2754-POL`) — Polo sport athletic jacquard stripe
+  - `GEM 2754 Flower 1` (`VRA-GEM-2754-FL1`) — Floral petal jacquard border
+  - `GEM 2754 Flower 2` (`VRA-GEM-2754-FL2`) — Botanical woven jacquard band
+  - `GEM 2754 Flower 3` (`VRA-GEM-2754-FL3`) — Ornate floral relief header
+* **3060 (Large Bath / Pool Towel · 76 × 152 cm)**:
+  - `GEM 3060 Burfy` (`VRA-GEM-3060-BUR`) — Traditional rhombus burfy dobby border
+  - `GEM 3060 Flower 1` (`VRA-GEM-3060-FL1`) — Floral dobby jacquard border
+  - `GEM 3060 Flower 2` (`VRA-GEM-3060-FL2`) — Double floral dobby weave
 
 ### 2. Gemini Series (14 Varieties)
-* **27" × 54" (Standard Bath Towel · 68 × 137 cm)**:
-  - `Gemini Cabana` (`VRA-GMI-2754-CAB`) — Yarn-dyed Mediterranean cabana stripe
-  - `Gemini 3D` (`VRA-GMI-2754-3D`) — Three-dimensional relief dobby
-  - `Gemini Diamond` (`VRA-GMI-2754-DIA`) — Precision geometric dobby
-  - `Gemini Flower I` (`VRA-GMI-2754-FL1`) — Fine floral dobby hem
-  - `Gemini Flower II` (`VRA-GMI-2754-FL2`) — Embossed floral jacquard band
-* **30" × 60" (Large Bath / Pool Towel · 76 × 152 cm)**:
-  - `Gemini 3D Pattern A` (`VRA-GMI-3060-3D1`) — Architectural 3D texture
-  - `Gemini 3D Pattern B` (`VRA-GMI-3060-3D2`) — Prismatic 3D relief weave
-  - `Gemini Diamond (Large)` (`VRA-GMI-3060-DIA`) — Diamond lattice jacquard
-  - `Gemini Flower I (Large)` (`VRA-GMI-3060-FL1`) — Floral blossom dobby band
-  - `Gemini Flower II (Large)` (`VRA-GMI-3060-FL2`) — Intricate floral jacquard header
-  - `Gemini Flower III (Large)` (`VRA-GMI-3060-FL3`) — Ornate botanical hem band
-  - `Gemini Lining` (`VRA-GMI-3060-LIN`) — Pinstripe linear dobby
-  - `Gemini Sideline` (`VRA-GMI-3060-SID`) — Sideline frame border
-  - `Gemini Sparkle` (`VRA-GMI-3060-SPK`) — Sparkle textured micro-weave
+* **2754 (Standard Bath Towel · 68 × 137 cm)**:
+  - `Gemini 2754 Cabana` (`VRA-GMI-2754-CAB`) — Yarn-dyed Mediterranean cabana stripe
+  - `Gemini 2754 3D` (`VRA-GMI-2754-3D`) — Three-dimensional relief dobby
+  - `Gemini 2754 Diamond` (`VRA-GMI-2754-DIA`) — Precision geometric dobby
+  - `Gemini 2754 Flower 1` (`VRA-GMI-2754-FL1`) — Fine floral dobby hem
+  - `Gemini 2754 Flower 2` (`VRA-GMI-2754-FL2`) — Embossed floral jacquard band
+* **3060 (Large Bath / Pool Towel · 76 × 152 cm)**:
+  - `Gemini 3060 3D 1` (`VRA-GMI-3060-3D1`) — Architectural 3D texture
+  - `Gemini 3060 3D 2` (`VRA-GMI-3060-3D2`) — Prismatic 3D relief weave
+  - `Gemini 3060 Diamond` (`VRA-GMI-3060-DIA`) — Diamond lattice jacquard
+  - `Gemini 3060 Flower 1` (`VRA-GMI-3060-FL1`) — Floral blossom dobby band
+  - `Gemini 3060 Flower 2` (`VRA-GMI-3060-FL2`) — Intricate floral jacquard header
+  - `Gemini 3060 Flower 3` (`VRA-GMI-3060-FL3`) — Ornate botanical hem band
+  - `Gemini 3060 Lining` (`VRA-GMI-3060-LIN`) — Pinstripe linear dobby
+  - `Gemini 3060 Sideline` (`VRA-GMI-3060-SID`) — Sideline frame border
+  - `Gemini 3060 Sparkle` (`VRA-GMI-3060-SPK`) — Sparkle textured micro-weave
 
 ### 3. Sharmili Series (3 Varieties)
-* **30" × 60" (Large Bath / Pool Towel · 76 × 152 cm)**:
-  - `Sharmili Classic` (`VRA-SHM-3060-CLS`) — Geometric floral relief header & multi-tone borders
-  - `Sharmili Cabana` (`VRA-SHM-3060-CAB`) — Classic vibrant yarn-dyed cabana stripe bundle
-  - `Sharmili Flower` (`VRA-SHM-3060-FLW`) — Botanical jacquard floral border weave
+* **3060 (Large Bath / Pool Towel · 76 × 152 cm)**:
+  - `Sharmili 3060 Classic` (`VRA-SHM-3060-CLS`) — Geometric floral relief header & multi-tone borders
+  - `Sharmili 3060 Cabana` (`VRA-SHM-3060-CAB`) — Classic vibrant yarn-dyed cabana stripe bundle
+  - `Sharmili 3060 Flower` (`VRA-SHM-3060-FLW`) — Botanical jacquard floral border weave
 
 ---
 

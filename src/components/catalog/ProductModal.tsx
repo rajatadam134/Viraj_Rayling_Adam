@@ -69,7 +69,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
 
   const handleMouseUp = () => setIsDragging(false);
 
-  const whatsappMessage = `Hello Viraj Rayling Adam, I am inquiring about ${product.name} (Size: ${product.size}). Quality: ${product.quality}. Please share price and availability.`;
+  const whatsappMessage = `Hello Viraj Rayling Adam, I am inquiring about ${product.name}. Quality: ${product.quality}. Please share price and availability.`;
 
   return (
     <div 

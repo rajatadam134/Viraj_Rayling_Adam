@@ -29,7 +29,7 @@ export const InquiryDrawer: React.FC<InquiryDrawerProps> = ({
     }
 
     const itemsList = inquiryProducts
-      .map((p, idx) => `${idx + 1}. ${p.name} (Size: ${p.size})`)
+      .map((p, idx) => `${idx + 1}. ${p.name}`)
       .join('\n');
 
     return `Hello Viraj Rayling Adam,\n\nI am interested in inquiring about the following towels from your catalog:\n${itemsList}\n\nPlease share price and availability.\n\nThank you!`;

@@ -34,7 +34,7 @@ export const SpecSheetView: React.FC<SpecSheetViewProps> = ({
           <tbody className="divide-y divide-hairline text-xs font-sans">
             {products.map((product) => {
               const isInList = inquiryProductIds.has(product.id);
-              const waMessage = `Hello Viraj Rayling Adam, I am inquiring about ${product.name} (Size: ${product.size}). Quality: ${product.quality}. Please share price.`;
+              const waMessage = `Hello Viraj Rayling Adam, I am inquiring about ${product.name}. Quality: ${product.quality}. Please share price.`;
 
               return (
                 <tr 
